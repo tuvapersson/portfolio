@@ -18,17 +18,17 @@ export default {
                 document.documentElement.style.setProperty('--light-color', '#1f1f1f')
                 document.documentElement.style.setProperty('--dark-color-opacity', '252, 252, 252')
                 document.documentElement.style.setProperty('--light-color-opacity', '31, 31, 31')
-                logo.src = '/src/assets/img/tuva_logo_black.svg'
+                logo.src = '/assets/tuva_logo_black.svg'
             }
             else if (this.hamburgerOn && this.switchOn) {
                 element.classList.add("toggle-on")
-                logo.src = '/src/assets/img/tuva_logo_white.svg'
+                logo.src = '/assets/tuva_logo_white.svg'
                 document.documentElement.style.setProperty('--dark-color', '#1f1f1f')
                 document.documentElement.style.setProperty('--light-color', '#fcfcfc')
             }
             else if (this.hamburgerOn && this.switchOn == false) {
                 element.classList.remove("toggle-on")
-                logo.src = '/src/assets/img/tuva_logo_black.svg'
+                logo.src = '/assets/tuva_logo_black.svg'
                 document.documentElement.style.setProperty('--dark-color', '#fcfcfc')
                 document.documentElement.style.setProperty('--light-color', '#1f1f1f')
             }
@@ -38,7 +38,7 @@ export default {
                 document.documentElement.style.setProperty('--light-color', '#fcfcfc')
                 document.documentElement.style.setProperty('--dark-color-opacity', '31, 31, 31')
                 document.documentElement.style.setProperty('--light-color-opacity', '252, 252, 252')
-                logo.src = '/src/assets/img/tuva_logo_white.svg'
+                logo.src = '/assets/tuva_logo_white.svg'
             }
         },
         hamburgerMenuOnOff() {

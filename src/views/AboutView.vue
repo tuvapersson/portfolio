@@ -42,8 +42,8 @@ export default {
     </div>
     <div class="flex-container" v-motion
         :initial="{opacity: 0, y: 20}"
-        :visibleOnce="{opacity: 1, y: 0, transition: {duration: 1000}}"
-        :delay="200"
+        :enter="{opacity: 1, y: 0, transition: {duration: 1000}}"
+        :delay="600"
         >
         <h2>SKILLS & TOOLS</h2>
         <table class="flex-text">
@@ -73,8 +73,8 @@ export default {
     </div>
     <div class="flex-container" v-motion
         :initial="{opacity: 0, y: 20}"
-        :visibleOnce="{opacity: 1, y: 0, transition: {duration: 1000}}"
-        :delay="200"
+        :enter="{opacity: 1, y: 0, transition: {duration: 1000}}"
+        :delay="1000"
         >
         <h2>WANNA SEE MY CV?</h2>
         <p class="flex-text">If you're interested in looking at my CV, I'll be more than happy to send it to you – I'm just an e-mail away.</p>
