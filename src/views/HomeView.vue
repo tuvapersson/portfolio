@@ -251,6 +251,7 @@ h2 {
   background-image: radial-gradient(closest-side, var(--light-color) 78%, transparent 0);
   background-size: 400px 400px;
   background-repeat: no-repeat;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(var(--light-color-opacity), 0.15);
   background-position: var(--hero-x) var(--hero-y);
