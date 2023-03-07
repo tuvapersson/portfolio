@@ -80,6 +80,7 @@ export default {
     <header>
         <RouterLink to="/">
             <img src="/src/assets/img/tuva_logo_white.svg" alt="Tuva Logo" class="logo">
+            <img src="/src/assets/img/tuva_logo_black.svg" alt="Tuva Logo" class="logo-black">
         </RouterLink>
         <div class="header-elements">
             <div class="switch-container" @click="toggleSwitch()">
@@ -179,7 +180,9 @@ header {
 }
 
 /* logo */
-
+.logo-black {
+    display: none;
+}
 .logo {
     width: 100px;
     padding: 1em;
