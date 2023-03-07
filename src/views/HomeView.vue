@@ -64,7 +64,7 @@ methods: {
         :initial="{opacity: 0, y: 20}"
         :enter="{opacity: 1, y: 0, transition: {duration: 1000}}"
         :delay="300">
-        <img src="/src/assets/img/home-page-images/vila-thumbnail.svg" alt="Vila Application" class="project-img">
+        <img src="/src/assets/img/vila-images/vila-overview.jpg" alt="Vila Application" class="project-img">
         <h2>VILA APPLICATION</h2>
         <p class="project-subtitle">UX Case Study / November 2021</p>
       </div>
