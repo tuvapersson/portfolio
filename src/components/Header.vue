@@ -12,7 +12,7 @@ export default {
             const element = document.querySelector('.toggle-off')
             const logo = document.querySelector('.logo')
             this.switchOn = !this.switchOn
-            if (this.switchOn && this.hamburgerOn == false) {
+            if (this.switchOn) {
                 element.classList.add("toggle-on")
                 document.documentElement.style.setProperty('--dark-color', '#fcfcfc')
                 document.documentElement.style.setProperty('--light-color', '#1f1f1f')
@@ -20,18 +20,18 @@ export default {
                 document.documentElement.style.setProperty('--light-color-opacity', '31, 31, 31')
                 logo.src = '/assets/tuva_logo_black-25758be5.svg'
             }
-            else if (this.hamburgerOn && this.switchOn) {
-                element.classList.add("toggle-on")
-                logo.src = '/assets/tuva_logo_white-8cdeee1b.svg'
-                document.documentElement.style.setProperty('--dark-color', '#1f1f1f')
-                document.documentElement.style.setProperty('--light-color', '#fcfcfc')
-            }
-            else if (this.hamburgerOn && this.switchOn == false) {
-                element.classList.remove("toggle-on")
-                logo.src = '/assets/tuva_logo_black-25758be5.svg'
-                document.documentElement.style.setProperty('--dark-color', '#fcfcfc')
-                document.documentElement.style.setProperty('--light-color', '#1f1f1f')
-            }
+            // else if (this.hamburgerOn && this.switchOn) {
+            //     element.classList.add("toggle-on")
+            //     logo.src = '/assets/tuva_logo_white-8cdeee1b.svg'
+            //     document.documentElement.style.setProperty('--dark-color', '#1f1f1f')
+            //     document.documentElement.style.setProperty('--light-color', '#fcfcfc')
+            // }
+            // else if (this.hamburgerOn && this.switchOn == false) {
+            //     element.classList.remove("toggle-on")
+            //     logo.src = '/assets/tuva_logo_black-25758be5.svg'
+            //     document.documentElement.style.setProperty('--dark-color', '#fcfcfc')
+            //     document.documentElement.style.setProperty('--light-color', '#1f1f1f')
+            // }
             else {
                 element.classList.remove("toggle-on")
                 document.documentElement.style.setProperty('--dark-color', '#1f1f1f')
