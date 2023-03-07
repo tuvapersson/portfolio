@@ -22,7 +22,7 @@ export default {
             }
             else if (this.hamburgerOn && this.switchOn) {
                 element.classList.add("toggle-on")
-                logo.src = '/assets/tuva_logo_white.svg'
+                logo.src = '/assets/tuva_logo_white-8cdeee1b.svg'
                 document.documentElement.style.setProperty('--dark-color', '#1f1f1f')
                 document.documentElement.style.setProperty('--light-color', '#fcfcfc')
             }
@@ -38,7 +38,7 @@ export default {
                 document.documentElement.style.setProperty('--light-color', '#fcfcfc')
                 document.documentElement.style.setProperty('--dark-color-opacity', '31, 31, 31')
                 document.documentElement.style.setProperty('--light-color-opacity', '252, 252, 252')
-                logo.src = '/assets/tuva_logo_white.svg'
+                logo.src = '/assets/tuva_logo_white-8cdeee1b.svg'
             }
         },
         hamburgerMenuOnOff() {
