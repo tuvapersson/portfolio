@@ -1,0 +1,74 @@
+/*css */
+
+:root {
+  --dark-color: #1f1f1f;
+  --dark-color-opacity: 31, 31, 31;
+  --light-color: rgb(252, 252, 252);
+  --light-color-opacity: 252, 252, 252;
+  --hero-x: 0;
+  --hero-y: 0;
+}
+
+body {
+  background-color: var(--dark-color);
+  font-family: articulat-cf, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: var(--light-color);
+}
+
+/* PROJECT STYLES */
+.project-img {
+  width: 100%;
+  padding: 10px 0;
+}
+.project-main {
+  max-width: 940px;
+  margin: 0 auto;
+}
+.project-content {
+  padding: 0 30px;
+}
+.project-title {
+  font-size: 38px;
+  font-family: articulat-heavy-cf, sans-serif;
+  font-weight: 900;
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 0 30px;
+}
+.project-description {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.project-h2 {
+  font-size: 24px;
+  margin-top: 50px;
+}
+.body-text {
+  font-family: articulat-cf, sans-serif;
+  font-weight: 300;
+}
+.text-small {
+  margin: 0;
+  font-weight: 300;
+
+}
+.in-text-bold {
+  font-weight: 700;
+}
+.thank-you {
+  font-size: 24px;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) { 
+  
+}
+@media screen and (min-width: 900px) { 
+  .project-title {
+    font-size: 48px;
+  }
+}
