@@ -30,6 +30,7 @@ mounted() {
 <template>
   <div>
   <link rel="stylesheet" href="https://use.typekit.net/dhs3mav.css">
+  <title>Tuva Persson</title>
   <transition name="intro" mode="out-in">
   <Intro v-if="isLoading"/>
 </transition>

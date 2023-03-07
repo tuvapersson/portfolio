@@ -18,7 +18,7 @@ export default {
                 document.documentElement.style.setProperty('--light-color', '#1f1f1f')
                 document.documentElement.style.setProperty('--dark-color-opacity', '252, 252, 252')
                 document.documentElement.style.setProperty('--light-color-opacity', '31, 31, 31')
-                logo.src = '/src/assets/img/vila-images/complex-process.jpg'
+                logo.src = '/src/assets/img/tuva_logo_black.svg'
             }
             else if (this.hamburgerOn && this.switchOn) {
                 element.classList.add("toggle-on")
