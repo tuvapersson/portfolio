@@ -6,14 +6,6 @@ export default {
             mouseMovedOverProject: false,
         }
     },
-    mounted() {
-      window.onload = () => {
-        let userAgent = navigator.userAgent;
-        if(userAgent.match(userAgent.match(/safari/i))){
-             console.log('safari')
-           }
-      }
-    },
 methods: {
   mouseMoveProject(e) {
     // this.mouseMovedOverProject = true
